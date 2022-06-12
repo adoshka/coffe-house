@@ -1,16 +1,15 @@
 import './app.scss';
+import '../variables/titles.scss'
 
-import Promo from '../main-page/promo/promo';
-import AboutAs from '../main-page/about-as/about-as';
 import { Component } from 'react';
+import MainPage from '../main-page/main-page';
 
 class App extends Component {
     
     render() {
         return(
             <div className='app'>
-                <Promo/>
-                <AboutAs/>
+                <MainPage/>
             </div>
         ) 
     }

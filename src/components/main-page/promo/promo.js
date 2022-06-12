@@ -2,7 +2,7 @@ import './promo.scss';
 
 import beansLogo from '../../../img/beans_logo.svg';
 
-import { About } from '../../about/about';
+import { About } from '../../nav/nav';
 
 const Promo = () => {
 

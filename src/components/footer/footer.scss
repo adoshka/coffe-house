@@ -1,7 +1,9 @@
-.about {
+.footer {
+    height:  150px;
+    padding: 30px 0 21px 0;
     &_wrapper {
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: flex-end;
         :last-child {
             margin-right: 0;
@@ -10,9 +12,7 @@
     &_logo {
         width: 35px;
         height: 35px;
-        &_black {
-            color: black
-        }
+        color: black
     }
     &_text {
         font-weight: 400;
@@ -22,8 +22,10 @@
         margin-right: 40px;
         cursor: pointer;
         text-decoration: none;
-        &_black {
-            color: black
-        }
+        color: black;
+    }
+    &_image{
+        display: block;
+        margin: 30px auto 0 auto;
     }
 }

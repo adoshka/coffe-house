@@ -8,7 +8,7 @@ const AboutAs = () => {
     return (
         <section className='about-as'>
             <div className="container">
-                <div className="about-as_text">
+                <div className="title">
                     About Us
                 </div>
                 <img  className='about-as_image'src={beansBlackLogo} alt="coffee beans black logo" />

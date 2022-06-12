@@ -1,0 +1,19 @@
+.about {
+    &_wrapper {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        :last-child {
+            margin-right: 0;
+        }
+    }
+    &_text {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 17px;
+        color: #fff;
+        margin-right: 40px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+}
