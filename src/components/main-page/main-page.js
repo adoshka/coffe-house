@@ -1,7 +1,7 @@
-import AboutAs from './about-as/about-as';
+import AboutUs from './about-as/about-as';
 import Promo from './promo/promo';
 import OurBest from './our-best/our-best';
-import Footer from '../footer/footer';
+import Footer from '../footer/Footer';
 
 const MainPage = () => {
 
@@ -9,7 +9,7 @@ const MainPage = () => {
     return (
         <div>
             <Promo/>
-            <AboutAs/>
+            <AboutUs/>
             <OurBest/>
             <Footer/>
         </div>

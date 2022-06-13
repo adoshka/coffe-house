@@ -1,4 +1,4 @@
-import './footer.scss';
+import './Footer.scss';
 
 import blackLogo from '../../img/black_logo.svg';
 import beansBlackLogo from '../../img/beans_logo_black.svg';

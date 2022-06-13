@@ -2,7 +2,7 @@ import './about-as.scss'
 
 import beansBlackLogo from '../../../img/beans_logo_black.svg';
 
-const AboutAs = () => {
+const AboutUs = () => {
 
 
     return (
@@ -30,4 +30,4 @@ const AboutAs = () => {
     )
 }
 
-export default AboutAs;
+export default AboutUs;

@@ -1,19 +1,19 @@
 import logo from '../../img/logo.svg';
 
 
-import './nav.scss';
+import './Nav.scss';
 
-const About = () => {
+const Nav = (props) => {
     
 
     return (
         <nav className="about_wrapper">
-            <img className="about_logo" src={logo} alt="coffee logo" />
-            <a href='google.com' className="about_text">Coffee house</a>
-            <a href='google.com' className="about_text">Our coffee</a>
-            <a href='google.com' className="about_text">For your pleasure</a>
+            <img className="nav_logo" src={logo} alt="coffee logo" />
+            <a href='google.com' className="nav_text">Coffee house</a>
+            <a href='google.com' className="nav_text">Our coffee</a>
+            <a href='google.com' className="nav_text">For your pleasure</a>
         </nav>
     );
 }
 
-export {About};
+export default Nav;

@@ -2,7 +2,7 @@ import './promo.scss';
 
 import beansLogo from '../../../img/beans_logo.svg';
 
-import { About } from '../../nav/nav';
+import  Nav  from '../../nav/Nav';
 
 const Promo = () => {
 
@@ -10,9 +10,9 @@ const Promo = () => {
     return (
         <section className='promo'>
             <div className="container">
-                <About/>
+                <Nav/>
 
-                <h1 className="promo_title">
+                <h1 className="title_big">
                     Everything You Love About Coffee
                 </h1>
                 <img className='promo_logo' src={beansLogo} alt="beans coffee logo" />
